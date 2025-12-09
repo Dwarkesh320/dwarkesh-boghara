@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Layers } from "lucide-react";
+import { Github, Layers } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -127,10 +127,6 @@ const Projects = () => {
                     <Button variant="ghost" size="sm" className="flex-1">
                       <Github className="w-4 h-4 mr-2" />
                       Code
-                    </Button>
-                    <Button variant="ghost" size="sm" className="flex-1">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Demo
                     </Button>
                   </div>
                 </div>
